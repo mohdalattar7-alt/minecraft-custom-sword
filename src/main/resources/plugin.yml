@@ -1,0 +1,17 @@
+name: CustomSword
+version: 1.0
+main: com.customsword.CustomSwordPlugin
+description: Epic custom sword plugin with 15 legendary swords and awesome abilities
+author: YourName
+
+commands:
+  customsword:
+    description: Get a custom sword
+    usage: /customsword <type>
+    aliases: [csword, sword]
+  swordstats:
+    description: View sword stats
+    usage: /swordstats
+  swordhelp:
+    description: Show sword help
+    usage: /swordhelp
